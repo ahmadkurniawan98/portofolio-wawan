@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../image/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+.navbar {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+a.navbar-brand {
+  color: black;
+  margin-left: 30px;
+  font-size: 28px;
+}
+
+a.nav-link,
+a.nav-item {
+  color: black;
+  margin-right: 30px;
+  font-size: 17px;
+}
+
+#home {
+  padding: 3rem;
+}
+
+.text-box {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  margin-left: 3rem;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.text-box h1 {
+  font-size: 60px;
+  line-height: 160px;
+}
+
+.text-box a {
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 6px;
+  border: 4px solid #f97300;
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.text-box a:hover {
+  border: 4px solid black;
+}
+
+.text-box .btn-dua {
+  background: #f97300;
+  color: black;
+  font-weight: 600;
+}
+
+span {
+  color: #f97300;
+}
+
+section#about {
+  padding-top: 5rem;
+}
+
+.konten {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  padding: 40px;
+}
+
+.title {
+  text-align: center;
+  color: #f97300;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.subtitle {
+  text-align: center;
+  color: #47f14f;
+  margin-bottom: 10px;
+}
+section#about p {
+  text-align: justify;
+}
+
+section#portfolio {
+  padding-top: 5rem;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform 0.2s;
+  width: 500px;
+  height: 300px;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+section#blog {
+  padding-top: 5rem;
+}
+
+section#blog .title {
+  margin-bottom: 30px;
+}
+
+.card-center {
+  display: flex;
+  justify-content: center;
+}
+
+section#team {
+  padding: 5rem;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  padding-top: 50px;
+  background-color: #47f14f;
+  color: white;
+  transform: rotateY(180deg);
+  width: 300px;
+  height: 300px;
+}
+
+section#contact {
+  padding: 5rem;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  padding: 40px;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}

@@ -4,9 +4,235 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio | Ahmad Kurniawan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+     <!-- Bootstrap Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="icon/logo.png" type="image/x-icon" />
   </head>
+
   <body>
-    <h1>portofolio</h1>
+    <!-- Header Menu  -->
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ahmad's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Menu Home  -->
+      <section id="home">
+        <div class="text-box">
+          <h1>I'm <span class="auto-input"></span></h1>
+          <p>You can reach out to me if you need any help in making a website for you or your bussiness.</p>
+          <a href="" class="btn-dua">Download CV</a>
+        </div>
+
+      <!-- Menu About  -->
+      <section id="about">
+          <h1 id="title" class="title" name="title">About</h1>
+          <div class="konten">
+          <h2 class="subtitle">Hello, I'm Ahmad Kurniawan</h2>
+          <p>
+            Ayunda Faza Maudya atau yang dikenal dengan nama Maudy Ayunda adalah salah satu artis muda berprestasi yang ada di Indonesia. Maudy Ayunda lahir di Jakarta, pada 19 Desember 1994. Beberapa hobi Maudy Ayunda antara lain adalah
+            menulis, bernyanyi, berenang dan bermain piano.
+          </p>
+          <p>Dari hobi menulisnya, ia sudah meluncurkan sebuah buku. Buku tersebut berjudul “A Of Fables”. Buku ini diluncurkan pada tahun 2005 silam.</p>
+          <p>
+            Salah satu hobinya yang banyak diketahui oleh orang lain adalah hobinya dalam hal belajar. Bukan sesuatu yang asing lagi dalam mendengar hal tersebut. Jika sebagian orang merasa lelah jika terus belajar, hal itu berbeda dengan
+            Maudy Ayunda.
+          </p>
+          <p>
+            Bersama Najwa Shihab, dalam salah satu wawancaranya ia mengatakan bahwa ia adalah orang yang sangat gemar belajar. Tidak hanya itu, hal lain yang unik dari Maudy Ayunda adalah terkait pernyataannya yang menyebutkan bahwa ia sangat
+            bersemangat dalam menghadapi ujian.
+          </p>
+          <p>
+            Maudy Ayunda adalah anak seseorang yang sangat berprestasi, terutama di bidang akademis. Maudy pernah menjadi juara dalam speech competition di sekolahnya. Ia fasih berbahasa Inggris. Tidak hanya itu, ia juga menguasai bahasa
+            Spanyol dan Mandarin.
+          </p>
+        </div>
+      </section>
+
+      <!-- Menu Portfolio  -->
+      <section id="portfolio">
+        <h1 id="title" class="title" name="title">Portfolio</h1>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-6 mb-4">
+              <img src="image/pp1.jpeg" class="portfolio-image  zoom" alt="..." />
+            </div>
+            <div class="col-sm-6 mb-4">
+              <img src="image/pp2.jpeg" class="portfolio-image  zoom" alt="..." />
+            </div>
+            <div class="col-sm-6 mb-4">
+              <img src="image/pp3.jpeg" class="portfolio-image  zoom" alt="..." />
+            </div>
+            <div class="col-sm-6 mb-4">
+              <img src="image/pp4.jpeg" class="portfolio-image  zoom" alt="..." />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu Blog  -->
+      <section id="blog">
+        <h1 id="title" class="title" name="title">Blog</h1>
+        <div class="container text-center">
+          <div class="row">
+            <div class="card-center col-sm-4 mb-4">
+              <div class="card" style="width: 18rem">
+                <img src="image/b1.jpeg" class="card-img-top" alt="CNN" />
+                <div class="card-body">
+                  <h5 class="card-title">CCN</h5>
+                  <p class="card-text">The new monarch and Camilla, Queen Consort, greeted well-wishers and cheering crowds outside Buckingham Palace</p>
+                  <a href="https://edition.cnn.com/" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-center col-sm-4 mb-4">
+              <div class="card" style="width: 18rem">
+                <img src="image/b2.jpeg" class="card-img-top" alt="Kompas" />
+                <div class="card-body">
+                  <h5 class="card-title">Kompas</h5>
+                  <p class="card-text">Dalam beleid tersebut, disebutkan bahwa dana JHT baru bisa dicairkan ketika peserta berusia 56 tahun.</p>
+                  <a href="https://www.kompas.com/tren/read/2022/02/12/203000665/isi-lengkap-permenaker-nomor-2-tahun-2022-jht-baru-bisa-cair-saat-usia-56?page=all" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-center col-sm-4 mb-4">
+              <div class="card" style="width: 18rem">
+                <img src="image/b3.jpeg" class="card-img-top" alt="BBC" />
+                <div class="card-body">
+                  <h5 class="card-title">BBC</h5>
+                  <p class="card-text">Mourners are beginning to take their seats in St Paul's Cathedral in London for the service of prayer and reflection to remember Queen Elizabeth II which will begin at 6pm.</p>
+                  <a href="https://www.bbc.com/news/live/uk-62842089" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu Team  -->
+      <section id="team">
+      <h1 id="title" class="title" name="title">Team</h1>
+      <div class="container">
+        <div class="row">
+          <div class="flip-card col-sm-4 mb-4 ms-auto">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/wawan.jpeg" alt="Wawan" style="width:300px;height:300px;" class="img-team">
+              </div>
+              <div class="flip-card-back">
+                <h1>Ahmad Kurniawan</h1> 
+                <p>Frontend Developer</p> 
+              </div>
+            </div>
+          </div>
+          <div class="flip-card col-sm-4 mb-4 ms-auto">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/jkr.jpg" alt="Joker" style="width:300px;height:300px;" class="img-team">
+              </div>
+              <div class="flip-card-back">
+                <h1>Joker</h1> 
+                <p>Backend Developer</p> 
+              </div>
+            </div>
+          </div>
+          <div class="flip-card col-sm-4 mb-4 ms-auto">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="image/spd.jpg" alt="Spiderman" style="width:300px;height:300px;" class="img-team">
+              </div>
+              <div class="flip-card-back">
+                <h1>Spiderman</h1> 
+                <p>UI/UX Designer</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        
+
+      <!-- Menu Contact  -->
+      <section id="contact">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h1 id="title" class="title" name="title">Contact Me</h1>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6 mb-5">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name">
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email </label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email">
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+         
+                <button type="submit" class="btn btn-warning">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button type="button" onclick="ganti()" class="btn btn-danger">Ganti Judul</button>
+
+    <!-- Footer  -->
+    <footer class="text-center pb-5">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/ahmad_krn/" class="text-light fw-bold">Ahmad Kurniawan</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Typing Style -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- My JS -->
+    <script src="js/script.js"></script>
+
   </body>
 </html>
